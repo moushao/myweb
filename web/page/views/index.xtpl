@@ -1,0 +1,26 @@
+{{extend ('./base')}}
+
+{{#block ('head')}}
+<link rel="stylesheet" href="/css/post-list.css">
+{{/block}}
+
+{{#block ('body')}}
+<img class="daimajiang" src="/img/daimajiang.png" alt="">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          {{#each(this)}}
+            {{#if (this.title && this.title_id)}}
+            <div class="link-wrapper">
+              <a class="article-link" href="/posts/{{this.title_id}}">{{this.title}}</a>
+            </div>
+            {{/if}}
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{/block}}

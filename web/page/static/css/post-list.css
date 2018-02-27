@@ -1,0 +1,26 @@
+.panel{
+  margin-top: 20px;
+}
+
+.article-link{
+  display: block;
+}
+
+.link-wrapper{
+  padding: 20px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.link-wrapper:hover{
+  background: #eee;
+}
+
+.article-link:hover{
+  text-decoration: none;
+}
+
+.daimajiang {
+  position: fixed;
+  left: 6%;
+  width: 100px;
+}

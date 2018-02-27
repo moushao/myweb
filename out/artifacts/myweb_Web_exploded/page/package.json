@@ -1,0 +1,22 @@
+{
+  "name": "blog-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon service",
+    "start": "node service"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "http-proxy-middleware": "^0.17.4",
+    "marked": "^0.3.7",
+    "nodemon": "^1.14.3",
+    "xtemplate": "^4.6.1",
+    "xtpl": "^3.4.0"
+  }
+}
